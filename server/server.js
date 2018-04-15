@@ -8,3 +8,13 @@ const app = express();
 app.use(bodyParser.json());  // 指定解析JSON格式的內容
 app.use(bodyParser.urlencoded({extended: false}));  // 使用querystring module處理url編碼
 app.use(morgan('dev'));  // 設定log format
+
+app.get('/', (req, res, next) => {
+    res.json({
+        user: 'Admin'
+    });
+});
+
+app.listen(3030, err => {
+    console.log('Lauching server on port 3030');
+});
