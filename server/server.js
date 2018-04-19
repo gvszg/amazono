@@ -7,6 +7,14 @@ const config = require('./config')
 
 const app = express();
 
+mongoose.connect(config.database, err => {
+    if (err) {
+        console.log('DB connect Error', err);
+    } else {
+        console.log('Connected to the DB');
+    }
+});
+
 app.use(bodyParser.json());  // 指定解析JSON格式的內容
 app.use(bodyParser.urlencoded({extended: false}));  // 使用querystring module處理url編碼
 app.use(morgan('dev'));  // 設定log format
