@@ -2,6 +2,8 @@
 - [Added] server/config.js
 - [Modified] server/server.js, config port
 - [Modified] server/server.js, DB connect setup
+- [Installed] [cors](https://github.com/expressjs/cors)
+- [Modified] server/server.js, use cors
 
 4/15/2018
 - 使用 Node.js 與 Angular 5，建立模仿Amazon的網站
