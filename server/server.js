@@ -3,6 +3,8 @@ const morgan = require('morgan');  // HTTP request logger middleware
 const bodyParser = require('body-parser');  // Node.js body parsing middleware
 const mongoose = require('mongoose');  // MongoDB object modeling tool designed to work in an asynchronous environment
 
+const config = require('./config')
+
 const app = express();
 
 app.use(bodyParser.json());  // 指定解析JSON格式的內容
@@ -15,6 +17,6 @@ app.get('/', (req, res, next) => {
     });
 });
 
-app.listen(3030, err => {
-    console.log('Lauching server on port 3030');
+app.listen(config.port, err => {
+    console.log('Lauching server on port ' + config.port);
 });
