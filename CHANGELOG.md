@@ -4,6 +4,7 @@ _ 安裝Angular UI Bootstrap套件
 - index頁面加入UI套件
 - 宣告bootstrap, http, form等模組
 - 設定組件的CSS
+- 設定HTMLnavbar元件
 
 4/20/2018
 - [Added] server/config.js
