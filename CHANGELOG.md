@@ -1,3 +1,6 @@
+4/26/2018
+- 使用Angular cli指令初始化專案
+
 4/20/2018
 - [Added] server/config.js
 - [Modified] server/server.js, config port
