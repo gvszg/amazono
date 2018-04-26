@@ -2,6 +2,7 @@
 - 使用Angular cli指令初始化專案
 _ 安裝Angular UI Bootstrap套件
 - index頁面加入UI套件
+- 宣告bootstrap, http, form等模組
 
 4/20/2018
 - [Added] server/config.js
