@@ -1,5 +1,6 @@
 4/26/2018
 - 使用Angular cli指令初始化專案
+_ 安裝Angular UI Bootstrap套件
 
 4/20/2018
 - [Added] server/config.js
