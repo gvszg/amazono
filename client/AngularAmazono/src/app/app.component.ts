@@ -14,7 +14,7 @@ export class AppComponent {
     }
 
     collapse() {
-        this.isCollpasted = true;
+        this.isCollpased = true;
     }
 
     closeDropdown(dropdown) {
