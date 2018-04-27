@@ -6,6 +6,7 @@
 - 設定首頁面的結與樣式
 - 加入樣本圖片
 - 產生Rest Api Service
+- 設定 Data Service 與 Message Component
 
 4/26/2018
 - 使用Angular cli指令初始化專案
