@@ -1,5 +1,6 @@
 5/19/2018
 - 設定UserSchema 屬性
+- 儲存密碼前先加密輸入的密碼
 
 4/27/2018
 - 設定HTML navbar 與 footer 元件
