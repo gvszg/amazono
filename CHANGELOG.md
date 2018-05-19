@@ -2,6 +2,7 @@
 - 設定UserSchema 屬性
 - 儲存密碼前先加密輸入的密碼
 - 比對密碼的function
+- 設定使用者圖像icon儲存方法
 
 4/27/2018
 - 設定HTML navbar 與 footer 元件
