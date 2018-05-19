@@ -21,11 +21,8 @@ app.use(bodyParser.urlencoded({extended: false}));  // 使用querystring module�
 app.use(morgan('dev'));  // 設定log format
 app.use(cors());  // 跨域請求資源功能
 
-app.get('/', (req, res, next) => {
-    res.json({
-        user: 'Admin'
-    });
-});
+const userRoutes = require('./routes/account');
+app.use('/api/accounts', userRoutes);
 
 app.listen(config.port, err => {
     console.log('Lauching server on port ' + config.port);
