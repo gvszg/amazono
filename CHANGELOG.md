@@ -1,3 +1,6 @@
+5/19/2018
+- 設定UserSchema 屬性
+
 4/27/2018
 - 設定HTML navbar 與 footer 元件
 - 產生Home component
