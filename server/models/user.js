@@ -17,7 +17,8 @@ const UserSchema = new Schema ({
         country: String,
         postalCode: String
     },
-    created: { type: Date, default: Date.now }
+    created: { type: Date, default: Date.now },
+    lib: {type: String, default: "free"}
 });
 
 UserSchema.pre('save', function(next) {
