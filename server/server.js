@@ -24,6 +24,9 @@ app.use(cors());  // 跨域請求資源功能
 const userRoutes = require('./routes/account');
 app.use('/api/accounts', userRoutes);
 
+app.use('/', express.static(__dirname + '/public'));
+app.use('/private', express.static(__dirname + '/lib/private'));
+
 app.listen(config.port, err => {
     console.log('Lauching server on port ' + config.port);
 });

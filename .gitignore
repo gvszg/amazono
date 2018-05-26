@@ -1,1 +1,11 @@
 node_modules/
+lib/
+public/
+npm-debug.log
+
+*.log
+**/.DS_Store
+free.json
+tech.json
+shared.json
+biz.json
